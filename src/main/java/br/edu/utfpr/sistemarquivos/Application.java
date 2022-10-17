@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Application {
 
     // TODO mudar esse caminho para o caminho da pasta "HD" no seu PC
-    public static final String ROOT = "F:" + File.separator + "utfpr" + File.separator + "hd";
+    public static final String ROOT = "C:" + File.separator + "estudos" + File.separator + "hd";
 
     public Application() {
         executar();
@@ -33,7 +33,7 @@ public class Application {
                 System.out.printf("%s", ex.getMessage()).println();
             }
         }
-
+        scanner.close();
         System.out.println("Sistema de arquivos encerrado.");
     }
 
